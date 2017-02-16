@@ -3,12 +3,12 @@
 /include/ "mt7621.dtsi"
 
 / {
-	compatible = "ralink,mt7621-eval-board", "ralink,mt7621-soc";
-	model = "ipRec-base-170215";
+	compatible = "MOHPlayer,ipRec-Giga-7621-board", "ralink,mt7621-soc";
+	model = "ipRec-mt7621-1702";
 
 	memory@0 {
 		device_type = "memory";
-		reg = <0x0 0x4000000>;
+		reg = <0x0 0x10000000>;
 	};
 
 	chosen {
