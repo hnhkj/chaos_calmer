@@ -4,7 +4,7 @@
 
 / {
 	compatible = "ralink,mt7621-eval-board", "ralink,mt7621-soc";
-	model = "Buffalo WSR-600DHP";
+	model = "ipRec-base-170215";
 
 	memory@0 {
 		device_type = "memory";

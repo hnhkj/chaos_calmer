@@ -8,8 +8,9 @@
 define Profile/ipRec-giga-base
 	NAME:=ipRec-giga-base Profile
 	PACKAGES:=\
-		kmod-usb-core \
-		kmod-ledtrig-usbdev
+		kmod-usb-core kmod-usb3 kmod-usb-hid kmod-sdhci-mt7620 \
+		kmod-ledtrig-usbdev \
+		kmod-usb3-mt7621
 endef
 
 define Profile/ipRec-giga-base/Description
